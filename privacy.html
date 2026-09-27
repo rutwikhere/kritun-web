@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — KRITUN</title>
+  
+  <!-- Meta Tags -->
+  <meta name="description" content="Privacy Policy for Kritun mobile application. Learn how we collect, use, and protect your information.">
+  <meta name="author" content="TechBrats">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+
+  <!-- Typography: Google Fonts (Outfit & Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Cinematic Background Lighting -->
+  <div class="ambient-glow glow-hero"></div>
+  <div class="ambient-grid"></div>
+
+  <!-- STICKY BRAND NAVIGATION -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-brand" aria-label="Kritun Home">
+        <img src="assets/logo.png" alt="Kritun Logo" class="brand-logo-img">
+        <span class="brand-name">KRITUN</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Main Navigation">
+        <a href="index.html#manifesto" class="nav-item">Manifesto</a>
+        <a href="index.html#identity" class="nav-item">Identity</a>
+        <a href="index.html#krits" class="nav-item">Krits</a>
+        <a href="index.html#network" class="nav-item">Network</a>
+        <a href="index.html#squads" class="nav-item">Squads</a>
+        <a href="index.html#why-kritun" class="nav-item">Why Kritun</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="index.html" class="btn btn-ghost btn-nav">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+          <span>Back to Home</span>
+        </a>
+
+        <a href="https://play.google.com/store/apps/details?id=com.techbrats.kritun&pcampaignid=web_share" target="_blank" rel="noopener" class="btn btn-primary btn-nav">
+          <span>Get Kritun</span>
+        </a>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- FULLSCREEN MOBILE NAVIGATION -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay" aria-hidden="true">
+    <div class="mobile-nav-container">
+      <div class="mobile-nav-top">
+        <div class="nav-brand">
+          <img src="assets/logo.png" alt="Kritun Logo" class="brand-logo-img">
+          <span class="brand-name">KRITUN</span>
+        </div>
+        <button class="mobile-close-btn" id="mobileCloseBtn" aria-label="Close Menu">&times;</button>
+      </div>
+
+      <nav class="mobile-nav-list">
+        <a href="index.html" class="mobile-link"><span>00</span> Home</a>
+        <a href="index.html#manifesto" class="mobile-link"><span>01</span> Manifesto</a>
+        <a href="index.html#identity" class="mobile-link"><span>02</span> Identity</a>
+        <a href="index.html#krits" class="mobile-link"><span>03</span> Krits</a>
+        <a href="index.html#network" class="mobile-link"><span>04</span> Network</a>
+        <a href="index.html#squads" class="mobile-link"><span>05</span> Squads</a>
+        <a href="privacy.html" class="mobile-link active"><span>07</span> Privacy Policy</a>
+      </nav>
+
+      <div class="mobile-nav-bottom">
+        <a href="https://play.google.com/store/apps/details?id=com.techbrats.kritun&pcampaignid=web_share" target="_blank" rel="noopener" class="btn btn-primary btn-full">
+          <span>Get Kritun on Google Play</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main class="legal-page-main">
+    <div class="container legal-container">
+      
+      <!-- Legal Header -->
+      <header class="legal-header reveal">
+        <div class="brand-kicker">LEGAL & PRIVACY</div>
+        <h1 class="legal-title">Privacy Policy for Kritun</h1>
+        <div class="legal-meta">
+          <span class="legal-date-badge">Last updated: December 2025</span>
+          <span class="legal-entity">Kritun (“we”, “our”, or “us”) operates the Kritun mobile application (the “App”).</span>
+        </div>
+        <p class="legal-intro">
+          This Privacy Policy explains how we collect, use, and protect your information when you use our App. We are committed to maintaining the privacy, security, and integrity of your data.
+        </p>
+      </header>
+
+      <!-- Legal Content Sections -->
+      <article class="legal-content">
+
+        <!-- Section 1 -->
+        <section class="legal-section reveal">
+          <div class="section-num-tag">01</div>
+          <div class="section-text-block">
+            <h2>1. Information We Collect</h2>
+            <p>We may collect the following types of information when you access or interact with the App:</p>
+            
+            <div class="legal-subsection">
+              <h3>a. Personal Information</h3>
+              <ul class="legal-bullet-list">
+                <li><strong>Name or username:</strong> Used to create and identify your gamer profile.</li>
+                <li><strong>Profile photo:</strong> Displayed on your user profile, posts, and team lineups.</li>
+                <li><strong>Email address:</strong> Managed securely via Firebase Authentication for account access and verification.</li>
+              </ul>
+            </div>
+
+            <div class="legal-subsection">
+              <h3>b. User-Generated Content</h3>
+              <ul class="legal-bullet-list">
+                <li><strong>Posts, stories, and comments:</strong> Highlights, Krits, and discussions you publish.</li>
+                <li><strong>Messages and chat content:</strong> Communications sent within direct chats and squad channels.</li>
+                <li><strong>Images and media:</strong> Screenshots, gameplay clips, and profile images uploaded by users.</li>
+              </ul>
+            </div>
+
+            <div class="legal-subsection">
+              <h3>c. Device & Usage Information</h3>
+              <ul class="legal-bullet-list">
+                <li><strong>Device type and operating system:</strong> Collected for compatibility, rendering, and in-app update delivery.</li>
+                <li><strong>App usage data:</strong> Diagnostics, crash reports, and performance analytics to improve stability.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="legal-section reveal">
+          <div class="section-num-tag">02</div>
+          <div class="section-text-block">
+            <h2>2. How We Use Your Information</h2>
+            <p>We use the collected information for the following legitimate purposes:</p>
+            <ul class="legal-bullet-list">
+              <li>Provide, maintain, and deliver the core functionality of the App.</li>
+              <li>Enable gaming social features including Krits posts, stories, team challenges, and real-time chat.</li>
+              <li>Improve app performance, responsiveness, and user experience across diverse devices.</li>
+              <li>Send high-priority notifications related to app activity, team invitations, and match alerts.</li>
+              <li>Ensure safety, enforce community guidelines, and prevent platform misuse or abusive behavior.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section class="legal-section reveal">
+          <div class="section-num-tag">03</div>
+          <div class="section-text-block">
+            <h2>3. Data Storage and Security</h2>
+            <ul class="legal-bullet-list">
+              <li>User data is securely stored and processed using industry-standard third-party infrastructure including Google Firebase and Supabase.</li>
+              <li>We implement reasonable administrative and technical safeguards to protect your personal information against unauthorized access, loss, or alteration.</li>
+              <li>While we strive to use commercially acceptable means to protect your data, please be aware that no method of transmission over the internet or electronic storage is 100% secure.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Section 4 -->
+        <section class="legal-section reveal">
+          <div class="section-num-tag">04</div>
+          <div class="section-text-block">
+            <h2>4. Sharing of Information</h2>
+            <p><strong>We do not sell or rent your personal data to third parties.</strong></p>
+            <p>We may share information only in the following limited circumstances:</p>
+            <ul class="legal-bullet-list">
+              <li>To comply with applicable laws, legal obligations, court orders, or governmental requests.</li>
+              <li>With trusted service providers (Firebase, Supabase) strictly necessary for delivering authentication, database, storage, and push notification infrastructure.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Section 5 -->
+        <section class="legal-section reveal">
+          <div class="section-num-tag">05</div>
+          <div class="section-text-block">
+            <h2>5. User Content & Moderation</h2>
+            <ul class="legal-bullet-list">
+              <li>Users retain responsibility for the content, text, and media they upload or distribute through the App.</li>
+              <li>We reserve the right to review, moderate, and remove any content that violates community safety standards or applicable laws.</li>
+              <li>Users have the ability to delete their own posts, comments, and stories at any time directly within the App.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Section 6 -->
+        <section class="legal-section reveal">
+          <div class="section-num-tag">06</div>
+          <div class="section-text-block">
+            <h2>6. Children’s Privacy</h2>
+            <p>
+              Kritun is not intended for children under the age of 13. We do not knowingly collect personal identifiable information from children under 13 years of age. If we discover that a child under 13 has provided us with personal information, we will take immediate steps to delete such data from our servers.
+            </p>
+          </div>
+        </section>
+
+        <!-- Section 7 -->
+        <section class="legal-section reveal">
+          <div class="section-num-tag">07</div>
+          <div class="section-text-block">
+            <h2>7. Your Rights & Choices</h2>
+            <p>You have control over your data and account settings:</p>
+            <ul class="legal-bullet-list">
+              <li><strong>Edit or delete content:</strong> Modify your profile, game IDs, or remove your Krits and stories.</li>
+              <li><strong>Account deletion:</strong> Request complete deletion of your account and associated records by contacting us.</li>
+              <li><strong>Notification controls:</strong> Configure or revoke push notification permissions via device settings or in-app team options.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Section 8 -->
+        <section class="legal-section reveal">
+          <div class="section-num-tag">08</div>
+          <div class="section-text-block">
+            <h2>8. Changes to This Policy</h2>
+            <p>
+              We may update this Privacy Policy from time to time. Any updates or modifications will be reflected on this page with an updated revision date. We encourage you to review this Privacy Policy periodically to stay informed about how we protect your information.
+            </p>
+          </div>
+        </section>
+
+        <!-- Section 9 -->
+        <section class="legal-section contact-legal-section reveal">
+          <div class="section-num-tag">09</div>
+          <div class="section-text-block">
+            <h2>9. Contact Us</h2>
+            <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your personal information, please contact our team directly:</p>
+            
+            <div class="contact-card">
+              <div class="contact-icon">📧</div>
+              <div class="contact-details">
+                <span class="contact-label">Official Support Email</span>
+                <a href="mailto:kritunofficial@gmail.com" class="contact-email">kritunofficial@gmail.com</a>
+              </div>
+              <a href="mailto:kritunofficial@gmail.com" class="btn btn-primary btn-sm">Send Email</a>
+            </div>
+          </div>
+        </section>
+
+      </article>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="index.html" class="footer-brand">
+          <img src="assets/logo.png" alt="Kritun Logo" class="brand-logo-img">
+          <span class="brand-name">KRITUN</span>
+        </a>
+        <p class="footer-tagline">A social platform built around the way gamers play, connect, share, and compete.</p>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-nav">
+          <a href="index.html#manifesto">Manifesto</a>
+          <a href="index.html#identity">Identity</a>
+          <a href="index.html#krits">Krits</a>
+          <a href="index.html#network">Network</a>
+          <a href="index.html#squads">Squads</a>
+          <a href="privacy.html" class="text-crimson">Privacy Policy</a>
+        </div>
+        <div class="footer-meta">
+          <span>Crafted by TechBrats</span>
+          <span>&copy; <span id="copyrightYear"></span> Kritun</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
