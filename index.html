@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KRITUN — Gaming Is More Than a Match</title>
+  
+  <!-- Meta & SEO Tags -->
+  <meta name="description" content="Kritun is the dedicated social and community platform built around the way gamers play, connect, share, and compete.">
+  <meta name="keywords" content="Kritun, Gaming Platform, Esports Community, Gamer Identity, Squads, Krits">
+  <meta name="author" content="TechBrats">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="KRITUN — Gaming Is More Than a Match">
+  <meta property="og:description" content="A social platform built around the way gamers play, connect, share, and compete.">
+  <meta property="og:image" content="assets/logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+
+  <!-- Typography: Google Fonts (Outfit & Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Cinematic Background Lighting -->
+  <div class="ambient-glow glow-hero"></div>
+  <div class="ambient-glow glow-mid"></div>
+  <div class="ambient-grid"></div>
+
+  <!-- STICKY BRAND NAVIGATION -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Kritun Home">
+        <img src="assets/logo.png" alt="Kritun Logo" class="brand-logo-img">
+        <span class="brand-name">KRITUN</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Main Navigation">
+        <a href="#manifesto" class="nav-item">Manifesto</a>
+        <a href="#identity" class="nav-item">Identity</a>
+        <a href="#krits" class="nav-item">Krits</a>
+        <a href="#network" class="nav-item">Network</a>
+        <a href="#squads" class="nav-item">Squads</a>
+        <a href="#why-kritun" class="nav-item">Why Kritun</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://play.google.com/store/apps/details?id=com.techbrats.kritun&pcampaignid=web_share" target="_blank" rel="noopener" class="btn btn-primary btn-nav">
+          <span>Get Kritun</span>
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </a>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- FULLSCREEN MOBILE NAVIGATION -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay" aria-hidden="true">
+    <div class="mobile-nav-container">
+      <div class="mobile-nav-top">
+        <div class="nav-brand">
+          <img src="assets/logo.png" alt="Kritun Logo" class="brand-logo-img">
+          <span class="brand-name">KRITUN</span>
+        </div>
+        <button class="mobile-close-btn" id="mobileCloseBtn" aria-label="Close Menu">&times;</button>
+      </div>
+
+      <nav class="mobile-nav-list">
+        <a href="#manifesto" class="mobile-link"><span>01</span> Manifesto</a>
+        <a href="#identity" class="mobile-link"><span>02</span> Identity</a>
+        <a href="#krits" class="mobile-link"><span>03</span> Krits</a>
+        <a href="#network" class="mobile-link"><span>04</span> Network</a>
+        <a href="#squads" class="mobile-link"><span>05</span> Squads</a>
+        <a href="#why-kritun" class="mobile-link"><span>06</span> Why Kritun</a>
+      </nav>
+
+      <div class="mobile-nav-bottom">
+        <a href="https://play.google.com/store/apps/details?id=com.techbrats.kritun&pcampaignid=web_share" target="_blank" rel="noopener" class="btn btn-primary btn-full">
+          <span>Get Kritun on Google Play</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ================================================================= -->
+    <!-- 01: HERO SECTION -->
+    <!-- ================================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        
+        <div class="hero-content">
+          <div class="brand-kicker reveal">KRITUN</div>
+
+          <h1 class="hero-headline reveal">
+            GAMING IS MORE<br>
+            <span class="hero-highlight">THAN A MATCH.</span>
+          </h1>
+
+          <p class="hero-description reveal">
+            A social platform built around the way gamers play, connect, share, and compete.
+          </p>
+
+          <div class="hero-actions reveal">
+            <a href="https://play.google.com/store/apps/details?id=com.techbrats.kritun&pcampaignid=web_share" target="_blank" rel="noopener" class="btn btn-primary btn-hero">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M3.609 1.814L13.792 12 3.61 22.186a2.29 2.29 0 0 1-.61-.91V2.724c.14-.35.35-.67.61-.91zm11.606 11.61L18.4 15.2l-13.37 7.64 10.185-9.416zm0-2.848L5.03 1.16 18.4 8.8l-3.185 1.776zM19.78 9.58l2.84 1.62c.9.52.9 1.36 0 1.87l-2.84 1.62-2.12-2.12 2.12-1.99z"/>
+              </svg>
+              <span>GET KRITUN</span>
+            </a>
+
+            <button class="btn btn-ghost btn-hero" id="openQrBtn" aria-haspopup="dialog">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="7" height="7" rx="1"></rect>
+                <rect x="14" y="3" width="7" height="7" rx="1"></rect>
+                <rect x="14" y="14" width="7" height="7" rx="1"></rect>
+                <rect x="3" y="14" width="7" height="7" rx="1"></rect>
+                <path d="M7 7h.01M17 7h.01M7 17h.01M17 17h.01M10 10h4v4h-4z"></path>
+              </svg>
+              <span>SCAN QR</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Cinematic Gaming Visual Composition -->
+        <div class="hero-visual reveal">
+          <div class="hero-art-frame">
+            <div class="art-light-beam"></div>
+            <div class="art-crosshair top-left"></div>
+            <div class="art-crosshair top-right"></div>
+            <div class="art-crosshair bottom-left"></div>
+            <div class="art-crosshair bottom-right"></div>
+
+            <div class="hero-emblem-wrapper">
+              <div class="hero-emblem-glow"></div>
+              <svg class="hero-emblem-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="92" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" stroke-dasharray="4 8"/>
+                <circle cx="100" cy="100" r="72" stroke="rgba(229, 57, 53, 0.25)" stroke-width="1.5"/>
+                <polygon points="100,30 160,140 40,140" stroke="#E53935" stroke-width="2" fill="rgba(229, 57, 53, 0.04)"/>
+                <line x1="100" y1="20" x2="100" y2="180" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1"/>
+                <line x1="20" y1="100" x2="180" y2="100" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1"/>
+                <circle cx="100" cy="100" r="8" fill="#E53935"/>
+              </svg>
+              <div class="emblem-caption">
+                <span>KRITUN SOCIAL CORE</span>
+                <span class="emblem-code">01 // GAMING IDENTITY</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- 02: THE PROBLEM (MANIFESTO) -->
+    <!-- ================================================================= -->
+    <section class="manifesto-section" id="manifesto">
+      <div class="container">
+        
+        <div class="editorial-header reveal">
+          <span class="editorial-num">01 / MANIFESTO</span>
+          <h2 class="editorial-title">
+            YOUR GAMING LIFE<br>
+            IS EVERYWHERE.
+          </h2>
+        </div>
+
+        <div class="manifesto-flow reveal">
+          <div class="manifesto-pillar">
+            <span class="pillar-label">FRAGMENTED</span>
+            <h3>Your games.</h3>
+            <p>Spread across multiple platforms, launchers, and consoles with no unified home.</p>
+          </div>
+
+          <div class="manifesto-pillar">
+            <span class="pillar-label">SCATTERED</span>
+            <h3>Your achievements.</h3>
+            <p>Clutch moments, career milestones, and match clips buried in generic social feeds.</p>
+          </div>
+
+          <div class="manifesto-pillar">
+            <span class="pillar-label">DISCONNECTED</span>
+            <h3>Your teammates.</h3>
+            <p>Lost in random matchmaking queues with no way to assess communication or playstyle.</p>
+          </div>
+
+          <div class="manifesto-pillar highlight-pillar">
+            <span class="pillar-label red">UNIFIED</span>
+            <h3>Kritun brings it together.</h3>
+            <p>A single, focused environment engineered specifically for competitive and casual gamers.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- 03: GAMER IDENTITY -->
+    <!-- ================================================================= -->
+    <section class="identity-section" id="identity">
+      <div class="container">
+        
+        <div class="identity-layout">
+          <div class="identity-content reveal">
+            <span class="editorial-num">02 / IDENTITY</span>
+            <h2 class="editorial-title">
+              YOUR GAME.<br>
+              <span class="text-crimson">YOUR IDENTITY.</span>
+            </h2>
+            <p class="editorial-lead">
+              Gaming identity is more than a username. It is the roles you master, the titles you play, the in-game tags you share, and the reputation you build with every squad.
+            </p>
+
+            <div class="identity-motifs">
+              <div class="motif-item">
+                <span class="motif-tag">TITLES & RANKS</span>
+                <p>Link your in-game IDs and display your primary competitive disciplines in one place.</p>
+              </div>
+              <div class="motif-item">
+                <span class="motif-tag">TACTICAL ROLES</span>
+                <p>Define your playstyle—whether you lead as an IGL, open site as an Entry Fragger, or hold angles as a Sniper.</p>
+              </div>
+              <div class="motif-item">
+                <span class="motif-tag">COMMUNITY REPUTATION</span>
+                <p>Build an authentic gamer record founded on peer sportsmanship and match chemistry.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Abstract Identity Graphic -->
+          <div class="identity-visual reveal">
+            <div class="abstract-silhouette-art">
+              <div class="silhouette-ring outer"></div>
+              <div class="silhouette-ring inner"></div>
+              
+              <div class="tactical-crosshair-box">
+                <div class="cross-line h-line"></div>
+                <div class="cross-line v-line"></div>
+                <div class="badge-emblem">
+                  <span class="badge-symbol">◆</span>
+                  <span class="badge-text">IDENTITY VERIFIED</span>
+                </div>
+              </div>
+
+              <div class="identity-tags-orbit">
+                <span class="orbit-chip pos-1">FPS & TACTICAL</span>
+                <span class="orbit-chip pos-2">IN-GAME ROLES</span>
+                <span class="orbit-chip pos-3">COMPETITIVE RECORD</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- 04: KRITS (CONTENT ENGINE) -->
+    <!-- ================================================================= -->
+    <section class="krits-section" id="krits">
+      <div class="container">
+        
+        <div class="editorial-header text-center reveal">
+          <span class="editorial-num">03 / CONTENT</span>
+          <h2 class="editorial-title">
+            PLAY IT. SHARE IT.<br>
+            <span class="text-crimson">MAKE IT A KRIT.</span>
+          </h2>
+          <p class="editorial-desc">
+            Capture the moments that define your gameplay. From tournament clutches to unexpected aces, share highlights directly with a community that understands the game.
+          </p>
+        </div>
+
+        <!-- Cinematic Widescreen Frame Visual -->
+        <div class="cinematic-showcase reveal">
+          <div class="cinematic-frame">
+            <div class="frame-letterbox top">
+              <span class="rec-dot"></span>
+              <span class="frame-meta">KRIT // HIGHLIGHT CAPTURE</span>
+              <span class="frame-aspect">2.39:1 CINEMATIC</span>
+            </div>
+
+            <div class="frame-center-art">
+              <div class="clutch-title-display">
+                <span class="clutch-tag">GAMEPLAY MOMENT</span>
+                <h3 class="clutch-main-title">CLUTCH ROUND RETAKE</h3>
+                <span class="clutch-sub">TACTICAL SITE CLEAR • FINAL ROUND</span>
+              </div>
+
+              <div class="clutch-hud-elements">
+                <div class="hud-bracket left"></div>
+                <div class="hud-bracket right"></div>
+                <div class="hud-cross">＋</div>
+              </div>
+            </div>
+
+            <div class="frame-letterbox bottom">
+              <span class="frame-tag-item">VALORANT</span>
+              <span class="frame-tag-item">BGMI</span>
+              <span class="frame-tag-item">FREE FIRE</span>
+              <span class="frame-tag-item">TACTICAL FPS</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- 05: FIND YOUR PEOPLE (THE NETWORK) -->
+    <!-- ================================================================= -->
+    <section class="network-section" id="network">
+      <div class="container">
+        
+        <div class="network-layout">
+          <div class="network-content reveal">
+            <span class="editorial-num">04 / DISCOVERY</span>
+            <h2 class="editorial-title">
+              FIND PLAYERS<br>
+              <span class="text-crimson">WHO PLAY LIKE YOU.</span>
+            </h2>
+            <p class="editorial-lead">
+              Random matchmaking shouldn't dictate your gaming experience. Connect with players who match your schedule, communication style, and competitive drive.
+            </p>
+
+            <div class="network-points">
+              <div class="net-point">
+                <strong>Discover Teammates</strong>
+                <p>Filter by game titles, skill tiers, active play hours, and preferred roles.</p>
+              </div>
+              <div class="net-point">
+                <strong>Evaluate Chemistry</strong>
+                <p>Run trial custom matches before committing to tournament lineups.</p>
+              </div>
+              <div class="net-point">
+                <strong>Direct Coordination</strong>
+                <p>Set up match lobbies and send instant match calls to your circle.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Abstract Network Constellation Visual -->
+          <div class="network-visual reveal">
+            <div class="network-constellation">
+              <canvas id="networkCanvas" width="480" height="480"></canvas>
+              <div class="network-center-pulse">
+                <span>KRITUN</span>
+                <small>PLAYER GRAPH</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- 06: SQUADS -->
+    <!-- ================================================================= -->
+    <section class="squads-section" id="squads">
+      <div class="container">
+        
+        <div class="editorial-header text-center reveal">
+          <span class="editorial-num">05 / LINEUPS</span>
+          <h2 class="editorial-title">
+            EVERY GREAT SQUAD<br>
+            <span class="text-crimson">STARTS WITH THE RIGHT PEOPLE.</span>
+          </h2>
+          <p class="editorial-desc">
+            Form dedicated rosters with defined positions. Build lineups that communicate, coordinate, and execute.
+          </p>
+        </div>
+
+        <!-- Tactical Lineup Visual Array -->
+        <div class="tactical-lineup-array reveal">
+          <div class="tactical-role-column">
+            <div class="role-emblem">01</div>
+            <span class="role-code">ROLE // IGL</span>
+            <h4>In-Game Leader</h4>
+            <p>Strategic calling, macro rotations, and mid-round decision making.</p>
+          </div>
+
+          <div class="tactical-role-column highlight-role">
+            <div class="role-emblem red">02</div>
+            <span class="role-code red">ROLE // ENTRY</span>
+            <h4>Entry Fragger</h4>
+            <p>First contact aggression, site opening, and dynamic space creation.</p>
+          </div>
+
+          <div class="tactical-role-column">
+            <div class="role-emblem">03</div>
+            <span class="role-code">ROLE // SUPPORT</span>
+            <h4>Support & Utility</h4>
+            <p>Flashes, smokes, resource management, and teammate refragging.</p>
+          </div>
+
+          <div class="tactical-role-column">
+            <div class="role-emblem">04</div>
+            <span class="role-code">ROLE // SNIPER</span>
+            <h4>Designated Sniper</h4>
+            <p>Long-range angle denial, first-pick precision, and map control.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- 07: COMMUNITY MANTRA (PLAY • CONNECT • COMPETE) -->
+    <!-- ================================================================= -->
+    <section class="mantra-section">
+      <div class="container">
+        <div class="mantra-banner reveal">
+          <span class="mantra-word">PLAY.</span>
+          <span class="mantra-dot">•</span>
+          <span class="mantra-word text-crimson">CONNECT.</span>
+          <span class="mantra-dot">•</span>
+          <span class="mantra-word">COMPETE.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- 08: WHY KRITUN (EDITORIAL SECTION) -->
+    <!-- ================================================================= -->
+    <section class="why-section" id="why-kritun">
+      <div class="container">
+        
+        <div class="editorial-header reveal">
+          <span class="editorial-num">06 / PURPOSE</span>
+          <h2 class="editorial-title">
+            GAMING DESERVES<br>
+            ITS OWN SPACE.
+          </h2>
+        </div>
+
+        <!-- 3 Large Statements Separated by Whitespace -->
+        <div class="editorial-statements">
+          
+          <div class="statement-row reveal">
+            <div class="statement-num">01</div>
+            <div class="statement-body">
+              <h3>BUILT EXCLUSIVELY FOR GAMERS</h3>
+              <p>
+                General-purpose social platforms are optimized for lifestyle algorithms and viral distraction. Kritun is engineered solely for gaming conversations, clutch clips, team recruitment, and player discovery.
+              </p>
+            </div>
+          </div>
+
+          <div class="statement-row reveal">
+            <div class="statement-num">02</div>
+            <div class="statement-body">
+              <h3>YOUR UNIFIED GAMING IDENTITY</h3>
+              <p>
+                No more sending separate usernames, Discord tags, and game codes across multiple channels. Your Kritun profile consolidates your in-game IDs, ranks, preferred roles, and highlight Krits into one shareable identity.
+              </p>
+            </div>
+          </div>
+
+          <div class="statement-row reveal">
+            <div class="statement-num">03</div>
+            <div class="statement-body">
+              <h3>PURPOSE-BUILT SQUAD RECRUITMENT</h3>
+              <p>
+                Finding compatible teammates shouldn't be left to chance. List exact role openings, review player evaluations, test chemistry in custom scrim trials, and coordinate matches with high-priority match notifications.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- 09: FINAL DOWNLOAD CAMPAIGN CTA -->
+    <!-- ================================================================= -->
+    <section class="download-section" id="download">
+      <div class="container">
+        <div class="download-canvas reveal">
+          <div class="download-inner">
+            <div class="brand-kicker">GET STARTED</div>
+            
+            <h2 class="download-headline">
+              READY TO MAKE<br>
+              YOUR GAME<br>
+              <span class="text-crimson">MORE SOCIAL?</span>
+            </h2>
+
+            <div class="download-actions">
+              <a href="https://play.google.com/store/apps/details?id=com.techbrats.kritun&pcampaignid=web_share" target="_blank" rel="noopener" class="btn btn-primary btn-hero">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                  <path d="M3.609 1.814L13.792 12 3.61 22.186a2.29 2.29 0 0 1-.61-.91V2.724c.14-.35.35-.67.61-.91zm11.606 11.61L18.4 15.2l-13.37 7.64 10.185-9.416zm0-2.848L5.03 1.16 18.4 8.8l-3.185 1.776zM19.78 9.58l2.84 1.62c.9.52.9 1.36 0 1.87l-2.84 1.62-2.12-2.12 2.12-1.99z"/>
+                </svg>
+                <span>GET KRITUN ON GOOGLE PLAY</span>
+              </a>
+
+              <button class="btn btn-ghost btn-hero" id="openQrBtn2" aria-haspopup="dialog">
+                <span>SCAN QR CODE</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- QR CODE MODAL -->
+  <div class="modal-backdrop" id="qrModal" role="dialog" aria-modal="true" aria-labelledby="qrModalTitle" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="closeQrBtn" aria-label="Close modal">&times;</button>
+      <img src="assets/logo.png" alt="Kritun" class="modal-logo">
+      <h3 id="qrModalTitle">Get Kritun</h3>
+      <p>Scan with your phone to open Kritun on Google Play.</p>
+      
+      <div class="qr-box">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.techbrats.kritun%26pcampaignid%3Dweb_share&color=ffffff&bgcolor=08080c&margin=1" alt="Kritun Google Play Store QR Code" class="qr-image" width="180" height="180">
+      </div>
+
+      <a href="https://play.google.com/store/apps/details?id=com.techbrats.kritun&pcampaignid=web_share" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Direct Store Link</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="footer-brand">
+          <img src="assets/logo.png" alt="Kritun Logo" class="brand-logo-img">
+          <span class="brand-name">KRITUN</span>
+        </a>
+        <p class="footer-tagline">A social platform built around the way gamers play, connect, share, and compete.</p>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-nav">
+          <a href="#manifesto">Manifesto</a>
+          <a href="#identity">Identity</a>
+          <a href="#krits">Krits</a>
+          <a href="#network">Network</a>
+          <a href="#squads">Squads</a>
+          <a href="#why-kritun">Why Kritun</a>
+        </div>
+        <div class="footer-meta">
+          <span>Crafted by TechBrats</span>
+          <span>&copy; <span id="copyrightYear"></span> Kritun</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
